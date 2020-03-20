@@ -1,0 +1,31 @@
+{
+    "name": "wayto-web-cli",
+    "version": "0.0.1",
+    "description": "cli",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yyhugh/wayto-web-cli.git"
+    },
+    "author": "yyhugh",
+    "keywords": [
+        "wayto-web-cli"
+    ],
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/yyhugh/wayto-web-cli/issues"
+    },
+    "homepage": "https://github.com/yyhugh/wayto-web-cli",
+    "bin": {
+        "wayto-web": "./index.js"
+    },
+    "dependencies": {
+        "chalk": "^2.4.1",
+        "commander": "^2.18.0",
+        "download-git-repo": "^1.1.0",
+        "handlebars": "^4.0.12",
+        "inquirer": "^6.2.0",
+        "log-symbols": "^2.2.0",
+        "ora": "^3.0.0"
+    }
+}
